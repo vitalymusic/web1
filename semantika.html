@@ -48,7 +48,7 @@
                     <td>1.</td>
                     <td>Jānis</td>
                     <td>
-                        <img src="" alt="">
+                        <img src="https://mockmind-api.uifaces.co/content/human/222.jpg" alt="" style="width: 100px;">
                     </td>
                     <td>janis@inbox.lv</td>
                     <td>
@@ -59,7 +59,7 @@
                     <td>2.</td>
                     <td>Anna</td>
                     <td>
-                        <img src="" alt="">
+                        <img src="https://mockmind-api.uifaces.co/content/human/219.jpg" alt="" style="width: 100px;">
                     </td>
                     <td>anna@inbox.lv</td>
                     <td>
@@ -68,7 +68,64 @@
                 </tr>
             </table>
         </section>
-        <section id="sec3"></section>
+        <section id="sec3">
+            <h2>Formas</h2>
+            <form method="post" action="https://formtester.goodbytes.be/post.php">
+
+                <div>
+                    <label for="vards">Jūsu vārds:</label>
+                    <input type="text" name="name" id="vards">
+                </div>
+                <div>
+                    <label for="epasts">Jūsu epasts:</label>
+                    <input type="email" name="email" id="epasts">
+                </div>
+                <div>
+                    <label for="parole">Jūsu parole:</label>
+                    <input type="password" name="password" id="parole">
+                </div>
+
+                <div>
+                    <label for="izvele">Izvēlies</label>
+                    <select name="cars" id="izvele">
+                        <option value=""></option>
+                        <option value="bmw">BMW</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="suzuki">Suzuki</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </div>
+
+                <div>
+                    <h3>Cik daudz laika pavadāt pie datora?</h3>
+                    
+                        <input type="radio" name="aptauja" id="atb1" value="Man nav datora">
+                        <label for="atb1">Man nav datora</label><br>
+                        <input type="radio" name="aptauja" id="atb2" value="1 stunda">
+                        <label for="atb2">1 stunda</label><br>
+                        <input type="radio" name="aptauja" id="atb3" value="2-4 stundas">
+                        <label for="atb3">2-4 stundas</label><br>
+                        <input type="radio" name="aptauja" id="atb4" value="5 un varāk">
+                        <label for="atb4">5 un varāk</label><br>
+                </div>
+
+                <div>
+                    <label for="bio">Nedaudz par sevi:</label>
+                    <textarea name="bio" id="bio"></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Reģistrēties</button>
+                </div>
+            </form>
+        </section>
+
+
+        <section id="sec">
+            <h2>Pasūtījuma nofomēšana</h2>
+            <!-- Uzdevums: Izveidot pasūtījuma apstrādes formu ar visiem nepieciešamiem laukiem -->
+
+        </section>
     </main>
     <footer>
         <p>Visas tiesības aizsargātas 🤩🤩</p>
