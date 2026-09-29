@@ -3,3 +3,62 @@ body{
     font-family: sans-serif;
     font-size: 16pt;
 }
+h1,h2{
+    text-align: center;
+    color:red;
+}
+
+nav{
+    background-color: black;
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+}
+
+table,tr,td{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+img{
+   width:300px; 
+}
+
+table img{
+    width:150px !important;
+}
+
+
+section#sec1{
+    background-color: blanchedalmond;
+}
+section#sec2{
+     background-color: rgb(154, 238, 10);
+}
+section#sec3{
+     background-color: rgb(11, 108, 220);
+}
+
+footer{
+   height: 20px; 
+}
+
+
+form input, form select,form textarea{
+    display: block;
+    width:450px;
+    box-sizing: border-box;
+}
+
+
+div.jautajums input{
+     display: inline;
+     width:10px;
+}
+
+form{
+    width:500px;
+    margin:auto;
+}
