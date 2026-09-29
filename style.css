@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Paytone+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 body{
     background-color: beige;
-    font-family: sans-serif;
+    font-family: "Roboto",sans-serif;
     font-size: 16pt;
 }
 h1,h2{
@@ -56,9 +59,48 @@ form input, form select,form textarea{
 div.jautajums input{
      display: inline;
      width:10px;
+    box-shadow: 5px 2px 15px 5px rgba(0,0,0,0.47);
 }
 
 form{
     width:500px;
     margin:auto;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: sans-serif;
+}
+
+
+/* Teksta formatēšana */
+
+p{
+    color:red;
+    font-family: monospace;
+    font-size: 0.7em;
+    font-style: italic;
+    font-variant: small-caps;
+
+    font-weight: normal;
+    font-weight: 900;
+    letter-spacing: -0.8px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: chartreuse;
+    text-indent: 40px;
+    text-overflow: clip;
+    text-shadow: 2px 4px 20px rgb(13, 97, 200);
+    text-transform: uppercase;
+    white-space: collapse;
+    text-overflow: ellipsis;
+    word-spacing: 5px;
+
+
+
+
+}
+
+h1,h2{
+     font-weight: 100;
+     font-family: "Paytone One", sans-serif;  
+
 }
