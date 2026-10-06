@@ -165,3 +165,30 @@ main{
     max-width: 1000px;
     margin:20px auto;
 }
+
+
+/* Flexbox */
+
+/* Sakārto elementus vienā rindā, izlīdzina horizontāli un vertikāli */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    gap:20px;
+}
+
+header{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 30px;
+}
+
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
