@@ -155,7 +155,7 @@ td{
 }
 
 form input,form textarea{
-    padding:3px 5px;
+    padding:5px 10px;
 }
 section{
     padding: 30px;
@@ -191,4 +191,20 @@ header{
     justify-content: center;
     align-items: center;
     gap: 30px;
+}
+
+
+.gallery{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+
+}
+
+.gallery img{
+    width:100% !important;
+}
+.logo{
+    width:100px;
+    height: 100px;
 }
