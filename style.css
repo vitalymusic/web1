@@ -104,3 +104,64 @@ h1,h2{
      font-family: "Paytone One", sans-serif;  
 
 }
+
+
+
+
+/* Box model */
+
+/* Tas ietekmē tieši Bloka elementus */
+/* Ja elements ir rindas, tad to var pārvērst par bloka elementu display:block */
+
+/* 1. ārējās apmales  margin*/
+
+*{
+    margin:0px;
+}
+
+body{
+    margin:0px;
+}
+
+header{
+    /* margin-bottom:20px; */
+}
+
+nav{
+    margin-bottom: 30px;
+}
+
+section#sec1 img{
+    display: block;
+    margin:auto;
+    margin-bottom:50px;
+}
+
+h1,h2,h3{
+    margin-bottom: 20px;
+}
+
+table{
+     margin:auto;
+     margin-bottom: 20px;
+}
+
+/* Padding - iekšējās atkāpes */
+nav{
+    padding: 20px;
+}
+td{
+    padding:5px 10px;
+}
+
+form input,form textarea{
+    padding:3px 5px;
+}
+section{
+    padding: 30px;
+}
+
+main{
+    max-width: 1000px;
+    margin:20px auto;
+}
