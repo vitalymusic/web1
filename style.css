@@ -154,8 +154,9 @@ td{
     padding:5px 10px;
 }
 
-form input,form textarea{
+form input,form textarea, form select{
     padding:5px 10px;
+    font-size:16px;
 }
 section{
     padding: 30px;
@@ -207,4 +208,53 @@ header{
 .logo{
     width:100px;
     height: 100px;
+}
+
+/* Flex un GRID */
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-footer,.right-footer{
+    width:50%;
+}
+
+
+.left-footer h3{
+    text-align: center;
+}
+
+
+/* pseido selektori */
+nav a:hover{
+    color:red;
+}
+
+.gallery img{
+    transition: 0.2s;
+    cursor: pointer;
+}
+.gallery img:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+form input:focus-visible,
+form textarea:focus-visible,
+form select:focus-visible
+{
+    outline: 2px solid red;
+    background-color: black;
+    color:white;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px white;
+    
+    transition: 0.3s;
+
+}
+
+form select{
+
 }
