@@ -58,8 +58,9 @@ form input, form select,form textarea{
 
 div.jautajums input{
      display: inline;
-     width:10px;
-    box-shadow: 5px 2px 15px 5px rgba(0,0,0,0.47);
+     width:20px;
+     height:20px;
+    /* box-shadow: 5px 2px 15px 5px rgba(0,0,0,0.47); */
 }
 
 form{
@@ -250,11 +251,6 @@ form select:focus-visible
     color:white;
     transform: scale(1.1);
     box-shadow: 0px 0px 20px white;
-    
     transition: 0.3s;
-
-}
-
-form select{
 
 }
