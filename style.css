@@ -376,3 +376,48 @@ header h1{
     }
 
 }
+
+
+
+
+/* Pozicionēšana */
+
+.position{
+    width:500px;
+    height: 500px;
+    background-color: black;
+    position: static; /*Noklusētā vērtība*/
+    position: relative; /*Nobīda elementu no defoltās pozīcijas*/
+    left:500px;
+    top:-500px;
+    z-index: -5;
+
+    /* Absolūtā pozicionēšana */
+    position: absolute; /* Novieto elementu neatkarīgi no citiem elementiem*/
+    bottom:0px;
+    right:0px;    
+    left:auto;
+    top:auto;
+    z-index: 10;
+    
+    position: fixed; /* Padara elementu nekustīgu*/
+
+}
+
+
+nav{
+    position: sticky;
+    top:0px;
+    z-index: 5000;
+}
+
+
+.position{
+    bottom:-400px;
+    display: none;
+}
+.position:hover{
+    bottom:0px;
+    transition: .3s cubic-bezier(0,1.09,.77,1.01);
+}
+
