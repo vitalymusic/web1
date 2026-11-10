@@ -145,7 +145,10 @@
     </footer>
 
 
-    <div class="position">
+    <div class="position" id="banner">
+            <div>
+                <button id="closeBannerBtn">Aizvērt</button>
+            </div>
             <h3 style="color:#fff">Reklāmas banneris</h3>
             <img src="https://picsum.photos/400" alt="bilde">
 
@@ -154,9 +157,11 @@
 
     <script>
         setTimeout(()=>{
-            document.querySelector('.position').style.display = "block"
+            document.querySelector('#banner').style.display = "block"
         },5000)
-
+        document.querySelector('#closeBannerBtn').onclick = ()=>{
+           document.querySelector('#banner').style.display = "none" 
+        }
 
     </script>
 </body>

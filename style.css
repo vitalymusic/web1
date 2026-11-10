@@ -421,3 +421,69 @@ nav{
     transition: .3s cubic-bezier(0,1.09,.77,1.01);
 }
 
+
+
+
+/* Mobīlā versija */
+@media screen and (max-width:425px) {
+    .row{
+        flex-direction: column;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    table{
+        width: 100%;
+        transform: scale(.5);
+        display: none;
+        margin: 10px auto;
+
+
+    }
+
+    form{
+        width: 100%;
+    }
+    form input, form textarea, form select{
+        width: 100%;
+    }
+
+    .jautajums{
+        margin-top:15px;
+    }
+
+
+    footer{
+        flex-direction: column;
+        .right-footer,.left-footer{
+            width: auto;
+        }
+    }
+
+    .position{
+        transform: scale(.6);
+        bottom:0px;
+        left:0px;
+    }
+
+    .gallery{
+        grid-template-columns: auto;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    
+
+
+}
+
+
+
+
+
+
+
+/* Mobīlā versija */
